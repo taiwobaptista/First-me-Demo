@@ -1,0 +1,191 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+
+
+/* sec-one begins */
+
+/* navbar */
+
+.navbar{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    box-shadow: 0px 15px 10px -15px  #E5E5E5;    
+    
+} 
+
+.logos{
+   
+}
+
+.navbar-nav{
+    margin-left: 160px;
+}
+
+.nav-link{
+    color: #111111 !important;
+}
+
+.nav-link:hover{
+    color: #019748 !important;
+}
+
+
+.nav-link:hover{
+    border-bottom: solid 2px  
+    #019748;
+}
+
+
+.nav-item {
+    padding-left: 25px;
+}
+
+.search{
+    margin-right: 70px;
+}
+
+.search i{
+    padding-left: 20px;
+}
+
+
+
+/* section 2 begins */
+.sec-two{
+    width: 100%;
+    height: 200px;
+    background-color:  #EEEEEE;
+    text-align: center;
+}
+
+.sec-two h5{
+    color:  #878787;
+    font-size: 50px;
+    padding-top: 50px;
+}
+
+
+/* section 3 begins */
+.sec-three{
+    margin-top: 50px;
+}
+
+.log{
+    width: 30rem;
+    margin: auto;
+    
+}
+    .login{
+        padding-top: 20px;
+        padding: 27px;
+        padding-bottom: 40px;
+    }
+
+    label{
+        padding-top: 15px;
+        font-weight: bold;
+    }
+
+    .check-box span{
+        display: inline-block;
+        justify-content: space-between;
+        
+    }
+
+    .check-boxx{
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+
+    #check{
+        margin-top: -20px;
+    }
+
+    #lost{
+        float: right;
+    }
+
+
+    .mybtn{
+        margin: auto;
+        background-color:  #28A462;
+        color: white;
+        margin-top: 50px;
+        width: 420px;
+       
+    }
+
+
+    /* section 4 begins */
+    .sec-four{
+        margin-bottom: 40px;
+    }
+
+    .contact{
+        width: 30rem;
+        background-color: #F8F8F8;
+        margin: auto;
+        margin-top: 40px;
+    }
+
+    .contact .image img{
+        padding-left: 30px;
+        padding-top: 20px;
+    }
+
+    .contact .text{
+        margin-left: 130px;
+        margin-top: -35px;
+    }
+
+    .contact .text span{
+        color:  #20AD96;
+
+    }
+
+    .contact .text p{
+        padding-bottom: 50px;
+        font-weight: bold;
+    }
+
+   
+
+      /* footer section begins */
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: #F8F8F8;  
+
+}
+
+.foot{
+padding-top: 50px;
+}
+
+.foot a {
+color: #696969;
+text-decoration: none;
+}
+
+.foot a:hover {
+color: #257249;
+}
+
+#main{
+color: #333333;
+font-weight: 500 !important;
+}
+
+#succ{
+padding-top: 26px;
+}
+
+.copyright{
+padding-top: 80px;
+text-align: center;
+color:  #ABABAB;
+}

@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+/* sec-one begins */
+
+/* navbar */
+
+.navbar{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    box-shadow: 0px 15px 10px -15px  #E5E5E5;    
+    
+} 
+
+.logos{
+   
+}
+
+.navbar-nav{
+    margin-left: 160px;
+}
+
+.nav-link{
+    color: #111111 !important;
+}
+
+.nav-link:hover{
+    color: #019748 !important;
+}
+
+
+.nav-link:hover{
+    border-bottom: solid 2px  
+    #019748;
+}
+
+
+.nav-item {
+    padding-left: 25px;
+}
+
+
+.search{
+    margin-right: 70px;
+}
+
+.search i{
+    padding-left: 20px;
+}
+
+
+
+/* section 2 begins */
+    .sec-two{
+
+    }
+
+    .sec-two #home{
+        padding-left: 60px;
+        padding-top: 20px;
+    }
+
+    .sec-two h2{
+        text-align: center;
+        margin-top: 50px;
+        color: #4e4a4a;
+    }
+
+
+    /* section 3 begins */
+    .sec-three{
+
+    }
+
+    .sec-three .available{
+        margin-top: 40px;
+        line-height: 0rem;
+    }
+
+    .sec-three .available span{
+        color: #9A9A9A;
+        margin-left: 30px;
+    }
+
+    .sec-three .available-border{
+        width: 45rem;
+        height: 4px;
+        border-radius: 8px;
+        background-color: #C4C4C4;
+        border-left: 10rem solid #20AD96;
+    }
+
+ .sec-three .we{
+     display: flex;
+     justify-content: space-between;
+     margin-top: 30px;
+ }   
+
+ .sec-three .we-text{
+     color: #7E7E7E;
+ }
+
+ .sec-three .we-sort{
+     width: 200px;
+     height: 40px;
+     background-color: #F8F8F8;
+     border-radius: 5px;
+     text-align: center;
+     padding-top: 7px;
+     margin-top: 10px;
+ }
+
+ .sec-three .we-sort p{
+     color: #ABABAB;
+ }
+
+ .sec-three .we-sort #sort1{
+    color: black;
+    padding-left: 20px;
+}
+
+.sec-three .we-sort #sort2{
+    color: #ABABAB;
+    padding-left: 20px;
+}
+
+
+/* section 4 begins */
+.sec-four{
+    margin-top: 40px;
+}
+
+.program-pics img{
+   width: 310px;
+}
+
+.program-text{
+    width: 310px;
+    height: 260px;
+    background-color: #FAF8F6;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 15px;
+}
+
+.program-text #date{
+    padding-top: 20px;
+       
+}
+
+.program-text h3{
+    color:  #3F3A64;
+    font-size: 23px;
+}
+
+.program-text #students{
+    color: #696969;
+    padding-top: 20px;
+    font-weight: 400;
+    padding-left: 20px;
+}
+
+.program-text span{
+    padding-left: 30px;
+}
+
+.free1{
+    width: 65px;
+    height: 50px;
+    color: #FFFFFF;
+    background-color: #20AD96;
+   text-align: center;
+   padding-top: 15px;
+   position: absolute;
+   top: 173px;
+   right: 70px;
+}
+
+
+.free2{
+    width: 115px;
+    height: 50px;
+    color: #FFFFFF;
+    background-color: #20AD96;
+   text-align: center;
+   padding-top: 15px;
+   position: absolute;
+   top: 173px;
+   right: 70px;
+}
+
+.row2{
+    margin-top: 35px;
+}
+
+.btn-v{
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 60px;
+    }
+    
+    .btn-view {
+        width: 280px;
+           text-align: center;
+           margin: auto;
+           margin-top: 40px;
+           background-color: #FFFFFF;
+           color: #20AD96;
+           padding-left: 25px;
+           padding-right: 25px;
+           padding-top: 11px;
+           border: solid #EEEEEE 1px;
+           border-radius: 5px;
+           cursor: pointer;
+       }
+
+       button i{
+        padding-left: 10px;
+    } 
+
+
+
+       /* footer section begins */
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: #F8F8F8;  
+
+}
+
+.foot{
+padding-top: 50px;
+}
+
+.foot a {
+color: #696969;
+text-decoration: none;
+}
+
+.foot a:hover {
+color: #257249;
+}
+
+#main{
+color: #333333;
+font-weight: 500 !important;
+}
+
+#succ{
+padding-top: 26px;
+}
+
+.copyright{
+padding-top: 80px;
+text-align: center;
+color:  #ABABAB;
+}
+
+
+
+
+
+

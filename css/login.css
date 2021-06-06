@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -14,15 +17,32 @@
     padding-top: 20px;
     padding-bottom: 10px;
     box-shadow: 0px 15px 10px -15px  #E5E5E5;    
-    
+    background-color: #FFFFFF;
 } 
 
-.logos{
-   
+.logos img{
+    margin-right: 2px;
+    margin-top: -10px;
 }
+
+.logos a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #019748 !important;
+    font-family: 'Acme', sans-serif;
+    font-size: 21px; 
+}
+
+
+.logos span{
+    color: #31316D;
+    font-family: 'Acme', sans-serif;
+}
+
 
 .navbar-nav{
     margin-left: 160px;
+  
 }
 
 .nav-link{
@@ -35,14 +55,13 @@
 
 
 .nav-link:hover{
-    border-bottom: solid 2px  
-    #019748;
+    border-bottom: solid 2px  #019748;
 }
-
 
 .nav-item {
     padding-left: 25px;
 }
+
 
 .search{
     margin-right: 70px;
@@ -56,6 +75,7 @@
 
 /* section 2 begins */
 .sec-two{
+    margin-top: 80px;
     width: 100%;
     height: 200px;
     background-color:  #EEEEEE;
@@ -76,8 +96,7 @@
 
 .log{
     width: 30rem;
-    margin: auto;
-    
+    margin: auto;   
 }
     .login{
         padding-top: 20px;
@@ -109,14 +128,17 @@
         float: right;
     }
 
+    .btn{
+        text-align: center;
+        width: 100%;
+        margin-top: 50px; 
+    }
 
     .mybtn{
         margin: auto;
         background-color:  #28A462;
         color: white;
-        margin-top: 50px;
-        width: 420px;
-       
+        
     }
 
 
@@ -157,7 +179,6 @@
       /* footer section begins */
 footer{
     width: 100%;
-    height: 400px;
     background-color: #F8F8F8;  
 
 }
@@ -186,6 +207,84 @@ padding-top: 26px;
 
 .copyright{
 padding-top: 80px;
+padding-bottom: 10px;
 text-align: center;
 color:  #ABABAB;
+}
+
+
+
+
+
+
+
+
+/* media screen */
+@media (max-width:900px) {
+
+    .search, .search i{
+        display: none;
+    }
+
+   .sec-two{
+       margin-top: 70px;
+   }
+
+   .logos a{
+       font-size: 16px;
+   }
+
+   #img-small{
+       display: none;
+   }
+
+   .sec-two{
+    height: initial;
+    padding-bottom: 27px;
+   }
+
+   .sec-two h5{
+    padding-top: 30px;
+}
+
+.log{
+    width: 100%;
+    margin: auto;   
+}
+
+#lost{
+    font-size: 13px;
+    margin-top: 4px;
+    padding-left: 5px;
+}
+
+.btn{
+    margin-top: 15px; 
+}
+
+.contact{
+    width: 100%;
+}
+
+.contact .image img{
+    padding-left: 18px;
+}
+
+
+.contact .text{
+    margin-left: 105px;
+    margin-top: -45px;
+}
+
+
+
+.copyright{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    }
+
+    .foot{
+        padding-top: 30px;
+        }
+
 }

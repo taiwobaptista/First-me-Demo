@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -14,12 +17,28 @@
     padding-top: 20px;
     padding-bottom: 10px;
     box-shadow: 0px 15px 10px -15px  #E5E5E5;    
-    
+    background-color: #FFFFFF;
 } 
 
-.logos{
-   
+.logos img{
+    margin-right: 2px;
+    margin-top: -10px;
 }
+
+.logos a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #019748 !important;
+    font-family: 'Acme', sans-serif;
+    font-size: 21px; 
+}
+
+
+.logos span{
+    color: #31316D;
+    font-family: 'Acme', sans-serif;
+}
+
 
 .navbar-nav{
     margin-left: 160px;
@@ -35,11 +54,8 @@
 
 
 .nav-link:hover{
-    border-bottom: solid 2px  
-    #019748;
-
+    border-bottom: solid 2px  #019748;
 }
-
 
 .nav-item {
     padding-left: 25px;
@@ -55,7 +71,12 @@
 }
 
 
+
 /* section 2 begins */
+.sec-two{
+    margin-top: 83px;
+}
+
 .about-banner{
     background-image: url("../images/about-banner.png");
     width: 100%;
@@ -79,7 +100,7 @@
  .about-banner p{
      color:  #FFFFFF;
      font-size: 35px;
-     font-weight: 34;
+     font-weight: 400;
      padding-top: 160px;
 }
 
@@ -157,9 +178,7 @@
     }
 
   .mission-vision{
-      /* height: 200px; */
       text-align: center;
-  
   }
 
   .mission h4{
@@ -223,7 +242,6 @@
 .video-text #our{
     color: #333333;
     font-size: 40px;
-    /* font-weight: bold; */
 }
 
 .video-text #our span{
@@ -232,16 +250,15 @@
 
 .video-text #excellence{
     color: #696969;
-    /* font-weight: bold; */
 }
 
 
 /* footer section begins */
 footer{
     width: 100%;
-    height: 400px;
     background-color: #F8F8F8;  
-
+    margin-top: 30px;
+    padding-bottom: 0px;
 }
 
 .foot{
@@ -268,6 +285,111 @@ padding-top: 26px;
 
 .copyright{
 padding-top: 80px;
+padding-bottom: 10px;
 text-align: center;
 color:  #ABABAB;
+padding-bottom: 10px;
+}
+
+
+
+
+
+
+/* media screen */
+@media (max-width:900px) {
+
+    .search, .search i{
+        display: none;
+    }
+
+   .sec-two{
+       margin-top: 40px;
+   }
+
+   .logos a{
+       font-size: 16px;
+   }
+
+   #img-small{
+       display: none;
+   }
+
+   .about-banner{
+     height: 250px; 
+}
+
+.cover2{
+    height: 250px; 
+}
+
+   .about-banner p{
+    font-size: 25px;
+    padding-top: 70px;
+}
+
+/* section 3 begins */
+.sec-three{
+    margin-top: 30px;
+}
+
+   /* section 4 begins */
+   .sec-four{
+    padding-top: 40px;
+}
+
+/* section 5 begins */
+.sec-five{
+    margin-top: 38px;
+}
+
+.mission h4{
+padding-top:50px;
+}
+
+.mission p{
+  padding-bottom: 30px;
+}
+        
+  /* section 6 begins */
+  .sec-six{
+    margin-top: 40px;
+  }
+
+  .sec-six iframe{
+    width: 90%;
+    height: 300px;
+}
+
+
+.videoo .img2{
+    width: 10%;
+    position: absolute;
+    top: -20px;
+    left: 10px;
+}
+
+.videoo .img3{
+   display: none; 
+}
+
+.video-text{
+    padding-top: 10px;
+}
+
+.video-text #our{
+    font-size: 30px;
+    line-height: 15px;
+}
+
+.copyright{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    }
+
+    .foot{
+        padding-top: 30px;
+        }
+    
+
 }

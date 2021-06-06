@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -14,15 +17,32 @@
     padding-top: 20px;
     padding-bottom: 10px;
     box-shadow: 0px 15px 10px -15px  #E5E5E5;    
-    
+    background-color: #FFFFFF;
 } 
 
-.logos{
-   
+.logos img{
+    margin-right: 2px;
+    margin-top: -10px;
 }
+
+.logos a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #019748 !important;
+    font-family: 'Acme', sans-serif;
+    font-size: 21px; 
+}
+
+
+.logos span{
+    color: #31316D;
+    font-family: 'Acme', sans-serif;
+}
+
 
 .navbar-nav{
     margin-left: 160px;
+  
 }
 
 .nav-link{
@@ -35,11 +55,8 @@
 
 
 .nav-link:hover{
-    border-bottom: solid 2px  
-    #019748;
-
+    border-bottom: solid 2px  #019748;
 }
-
 
 .nav-item {
     padding-left: 25px;
@@ -55,13 +72,13 @@
 }
 
 
+
 /* section two begins */
 .sec-two{
     height: 590px;
     width: 60%;
     background-color: #EDF4F8;
-
-    
+    margin-top: 83px;
 }
 
 .accu{
@@ -79,8 +96,8 @@
     font-size: 30px;
 }
 
-.accurate h5{
-    
+.accurate h4{
+    line-height: 0px;
 }
 
 .btn-show{
@@ -97,7 +114,7 @@
   position: absolute;
   z-index: 1;
     left: 650px;
-    bottom: -140px;
+    bottom: -155px;
     height: 470px !important;
 }
 
@@ -125,6 +142,10 @@
        font-weight: bold;
    }
 
+   .why img{
+       display: none;
+   }
+
    .sec-three h4 {
     padding-top: 0px;
        text-align: center;
@@ -134,8 +155,6 @@
 .sec-three h4 span{
    color: #28A462;
 }
-
-
 
 .rrow{
     margin-top: 55px;
@@ -214,7 +233,6 @@
 .sec-five{
     margin-top: 30px;
     width: 100%;
-    height: 910px;
     background-color:  #F5F7FA;
 }
 
@@ -242,6 +260,10 @@
 }
 
 .free{
+    display: flex;
+}
+
+.freee{
     display: flex;
 }
 
@@ -345,6 +367,11 @@ text-align: center;
 }
 
 /* card region */
+.carrd{
+    margin-top: 45px;
+    margin-left: 40px; 
+}
+
 .card-reg{
     padding-left: 20px;
     padding-top: 30px;
@@ -381,15 +408,9 @@ text-align: center;
     color: #7E7E7E;
 }
 
-.carrd{
-    margin-top: 45px;
-    margin-left: 40px; 
-}
 
 
-
-/* section 8 begins */
-
+/* section eight begins */
 .sec-eight{
     padding-top: 120px;
     background-color:  white;
@@ -397,18 +418,18 @@ text-align: center;
     padding-bottom: 90px;
 }
 
+.sec-eight .start p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    color:#3F3A64;
+}
+
 .sec-eight .start h5 {
        text-align: center;
        color:#3F3A64;
        font-size: 25px;
        /* font-weight: bold; */
-   }
-
-   .sec-eight .start p {
-       text-align: center;
-       font-weight: bold;
-       font-size: 18px;
-       color:#3F3A64;
    }
 
 .sec-eight .start p span{
@@ -420,7 +441,7 @@ text-align: center;
 /* section nine begins */
 .sec-nine{
     width: 100%;
-    height: 590px;
+    padding-bottom: 40px;
     background-color: #F5F1ED;
 }
 
@@ -473,7 +494,6 @@ text-align: center;
 /* footer section begins */
 footer{
         width: 100%;
-        height: 400px;
         background-color: #F8F8F8;    
 }
 
@@ -501,6 +521,203 @@ footer{
 
 .copyright{
     padding-top: 80px;
+    padding-bottom: 10px;
     text-align: center;
     color:  #ABABAB;
+}
+
+
+
+
+
+
+/* media screen */
+@media (max-width:900px) {
+
+    .search, .search i{
+        display: none;
+    }
+
+   .sec-two{
+       margin-top: 40px;
+   }
+
+   .logos a{
+       font-size: 16px;
+   }
+
+   #img-small{
+       display: none;
+   }
+
+
+   /* section two begins */
+    .sec-two{
+    width: 100%;
+    margin-top: 60px;
+    height: initial;
+    padding-bottom: 32px;
+}
+
+.accurate {
+    padding-left: 0px;
+    text-align: center;
+    padding-top: 55px;
+}
+
+.accurate p{
+    font-size: 20px;
+}
+
+.accurate h4{
+    line-height: 10px;
+}
+
+
+    .accurate-image img{
+      display: none;
+  }
+
+  .arrows{
+    display: none;
+}
+
+/* section 3 begins */
+.sec-three .why p {
+    padding-top: 25px;
+   }
+
+    .why img{
+    display: block;
+    margin-top: 20px;
+}
+
+  
+/* sec-four begins */
+#first{
+    padding-top: 10px;
+}
+
+#second{
+    line-height: 30px;
+}
+
+
+/* section five begins */
+.sec-five .why2 h4 {
+    padding-bottom: 20px;
+   }
+
+   
+.sec-five .why2 p {
+    padding-top: 40px;
+   }
+
+.free{
+    padding-top: 0px;
+}
+
+.freee{
+    padding-top: 20px;
+}
+
+.free-text{
+    padding-top: 5px;
+}
+
+#pi{
+    padding-top: 0px;
+}
+
+.row-head{
+    padding-top: initial;
+}
+
+.free-text #span1{
+    padding-left: 0px;
+    line-height: 15px;
+    padding-top: 0px;
+}
+
+.free-text #span2{
+    padding-left: 0px;
+    display: block;
+}
+
+
+ /* section six begins */
+ .sec-six{
+      margin-top: 0px; 
+}
+
+.sec-six .get p {
+    padding-top: 35px;
+   }
+
+   .sec-six iframe{
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+}
+
+
+/* section seven begins */
+.sec-seven .great p {
+    padding-top: 32px;
+   }
+
+   /* card region */
+   .carrd{
+       width: 100%;
+       margin: auto;
+       margin-top: 17px;
+       margin-left: 0px; 
+}
+
+    .card{
+        width: 100% !important;
+        margin-top: 17px;
+    }
+
+    /* section eight begins */
+.sec-eight{
+    padding-top: 50px;
+    line-height: 1.8rem;
+    padding-bottom: 30px;
+}
+
+.sec-eight .start p {
+    font-size: 16.5px;
+}
+
+.sec-eight .start h5 {
+    font-size: 18px;
+}
+
+/* section nine begins */
+.sec-nine{
+    width: 100%;
+}
+
+.cardx{
+    width: 100% !important;
+   margin-top: 40px;
+}
+
+.enj{
+    padding-top: 10px;
+}
+
+
+
+
+.copyright{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    }
+
+    .foot{
+        padding-top: 30px;
+        }
+
 }

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -14,15 +17,32 @@
     padding-top: 20px;
     padding-bottom: 10px;
     box-shadow: 0px 15px 10px -15px  #E5E5E5;    
-    
+    background-color: #FFFFFF;
 } 
 
-.logos{
-   
+.logos img{
+    margin-right: 2px;
+    margin-top: -10px;
 }
+
+.logos a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #019748 !important;
+    font-family: 'Acme', sans-serif;
+    font-size: 21px; 
+}
+
+
+.logos span{
+    color: #31316D;
+    font-family: 'Acme', sans-serif;
+}
+
 
 .navbar-nav{
     margin-left: 160px;
+  
 }
 
 .nav-link{
@@ -35,11 +55,8 @@
 
 
 .nav-link:hover{
-    border-bottom: solid 2px  
-    #019748;
-
+    border-bottom: solid 2px  #019748;
 }
-
 
 .nav-item {
     padding-left: 25px;
@@ -56,12 +73,14 @@
 
 
 /* section 2 begins */
+    .sec-two{
+        margin-top: 83px;
+    }
 .team-banner{
     background-image: url("../images/about-banner.png");
     width: 100%;
      height: 450px; 
     background-size: cover;
-    /* opacity: 90%; */
     background-color: rgba(0.5, 0.5, 0.5, 0.8);
 }
 
@@ -97,8 +116,6 @@
     font-size: 17px;
     font-weight: bold;
 }
-
-
 
 .sec-three h4 {
  padding-top: 0px;
@@ -155,6 +172,7 @@ color: #28A462;
 
 .profile img{
     width: 82%;
+    height: 350px;
 }
 
 .mission{
@@ -172,7 +190,6 @@ color: #28A462;
     color: #696969;
     font-weight: bold;
     padding-left: 10px;
-    
 }
 
 .profile-text p{
@@ -198,7 +215,6 @@ color: #28A462;
     /* footer section begins */
 footer{
     width: 100%;
-    height: 400px;
     background-color: #F8F8F8;  
 
 }
@@ -227,6 +243,113 @@ padding-top: 26px;
 
 .copyright{
 padding-top: 80px;
+padding-bottom: 10px;
 text-align: center;
 color:  #ABABAB;
+}
+
+
+
+
+
+
+/* media screen */
+@media (max-width:900px) {
+
+    .search, .search i{
+        display: none;
+    }
+
+   .sec-two{
+       margin-top: 40px;
+   }
+
+   .logos a{
+       font-size: 16px;
+   }
+
+   #img-small{
+       display: none;
+   }
+
+   .team-banner{
+     height: 200px; 
+}
+
+.cover2{
+    height: 200px; 
+}
+
+   .team-banner p{
+    font-size: 35px;
+    padding-top: 88px;
+}
+
+.sec-three .get p {
+    padding-top: 20px;
+    font-size: 20px;
+   }
+
+   .sec-three h4 {
+        line-height: 2px;
+       font-size: 23px;
+   }
+
+   /* main image begins */
+.main-image{
+    width: 100%;
+    display: block;
+    margin-top: 50px;
+}
+
+.main-pics{
+    display: block;
+    width: 100%;
+    margin-left: 0px;
+}
+
+.main-pics img{
+    width: 100%;
+    display: block;
+}
+
+.main-text{
+    margin-left: 0px;
+}
+
+/* section 4 begins */
+.sec-four{
+    margin-top: 0px;
+    margin-bottom: 70px;
+}
+
+.profile{
+    margin-top: 60px;
+}
+
+.profile img{
+    width: 100%;
+    height: 350px;
+}
+
+.mission, .mission2, .mission3{
+    width: 100% !important;
+    height: initial;
+}
+
+
+.row2{
+    margin-top: 0px;
+}
+
+
+.copyright{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    }
+
+    .foot{
+        padding-top: 30px;
+        }
+
 }

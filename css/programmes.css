@@ -71,6 +71,10 @@
     padding-left: 20px;
 }
 
+.search a{
+    color: black;
+}
+
 
 /* section 2 begins */
     .sec-two{
@@ -222,7 +226,7 @@
     }
     
     .btn-view {
-        width: 280px;
+           width: 280px;
            text-align: center;
            margin: auto;
            margin-top: 40px;
@@ -246,7 +250,6 @@
 footer{
     width: 100%;
     background-color: #F8F8F8;  
-
 }
 
 .foot{
@@ -254,7 +257,7 @@ padding-top: 50px;
 }
 
 .foot a {
-color: #696969;
+color: #665959;
 text-decoration: none;
 }
 
@@ -278,6 +281,25 @@ text-align: center;
 color:  #ABABAB;
 }
 
+@media (max-width: 1200px) {
+    
+    .fr-two {
+        position: absolute;
+        left: 200px;
+    }
+
+    .fr-one {
+        left: 180px;
+    }
+}
+
+@media (max-width: 1024px) {
+    
+    .fr-two {
+        position: absolute;
+        right: 500px !important;
+    }
+}
 
 
 
@@ -285,7 +307,7 @@ color:  #ABABAB;
 
 
 /* media screen */
-@media (max-width:900px) {
+@media (max-width:903px) {
 
     .search, .search i{
         display: none;
@@ -312,12 +334,13 @@ color:  #ABABAB;
     margin-top: 30px;
 }
 
+
+
+/* sec-three begins */
 .sec-three .available-border{
     width: 100%;
     height: 4px;
 }
-
-
 
 .sec-three .we{
     display: block;
@@ -334,6 +357,7 @@ color:  #ABABAB;
     /* section 4 begins */
     .program1{
         margin-top: 40px;
+        position: relative;
     }
 
     .program-text{
@@ -342,7 +366,8 @@ color:  #ABABAB;
     }
 
     .free1, .free2{
-       top: 210px;
+       position: absolute;
+       top: 170px;
        right: 50px;
     }
     
@@ -367,6 +392,50 @@ color:  #ABABAB;
         }
 
 }
+
+
+
+/* media screen */
+@media (max-width:368px) {
+
+    .sec-three{
+        width: 100% !important;
+    }
+
+
+    .sec-three .available{
+        width: 110% !important;
+        line-height: 0rem;
+        font-size: 14px;
+    }
+
+    .sec-three .available span{
+        margin-left: 20px;
+    }
+
+    .sec-three .available-border{
+        width: 100% !important;
+    }
+
+    .free1, .free2{
+        top: 198px;
+        right: 50px;
+     }
+    }
+
+    @media (max-width:300px) {
+    
+        .sec-three .available{
+            font-size: 12px;
+        }
+    
+        .sec-three .available span{
+            margin-left: 10px;
+        }
+    }
+
+
+
 
 
 
